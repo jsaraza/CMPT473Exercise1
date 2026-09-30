@@ -3,6 +3,11 @@
 
 #include "Parallelogram.h"
 
+#include "Matthews.h"
+
+using sequence::MatthewsOutcome;
+using sequence::checkMatthewsOutcome;
+
 using namespace testing;
 
 using shapes::Angle;
@@ -51,4 +56,37 @@ TEST(ParallelogramTests, AreaMultipliesBothDistinctSides) {
 TEST(ParallelogramTests, EqualSidesAtRightAngleIsSquare) {
   Parallelogram p{Side{4}, Side{4}, Angle{90.0}};
   EXPECT_EQ(Parallelogram::Kind::SQUARE, p.getKind()); // returns rectangle when its actually a square
+}
+
+// Task 2 Matthews
+
+// reminder == 0
+
+TEST(MatthewsTests, MultipleOfThreeIsZero) {
+  EXPECT_EQ(MatthewsOutcome::ZERO, checkMatthewsOutcome(3));
+}
+
+// number == -1
+TEST(MatthewsTests, NegativeOneReturnsMinusOneCycle) {
+  EXPECT_EQ(MatthewsOutcome::MINUS_ONE_CYCLE, checkMatthewsOutcome(-1));
+}
+
+// number == -2
+TEST(MatthewsTests, NegativeTwoReturnsNegativeTwoCycle) {
+  EXPECT_EQ(MatthewsOutcome::MINUS_TWO_CYCLE, checkMatthewsOutcome(-2));
+}
+
+// number == -4
+TEST(MatthewsTests, NegativeFourReturnsNegativeTwoCycle) {
+  EXPECT_EQ(MatthewsOutcome::MINUS_TWO_CYCLE, checkMatthewsOutcome(-4));
+}
+
+// remainder == 1
+TEST(MatthewsTests, RemainderOneTakesGrowingBranchThenTerminates) {
+  EXPECT_EQ(MatthewsOutcome::ZERO, checkMatthewsOutcome(1));     
+}
+
+// remainder == 2
+TEST(MatthewsTests, RemainderTwoTakesShrinkingBranchThenTerminates) {
+  EXPECT_EQ(MatthewsOutcome::ZERO, checkMatthewsOutcome(2));
 }

@@ -3,6 +3,8 @@
 
 test/CMakeFiles/runAllTests.dir/Dummy.cpp.o
  /home/jms40/Documents/CMPT473/Exercise1/test/Dummy.cpp
+ /home/jms40/Documents/CMPT473/Exercise1/lib/simple/include/Matthews.h
+ /home/jms40/Documents/CMPT473/Exercise1/lib/simple/include/Parallelogram.h
  /home/jms40/Documents/CMPT473/Exercise1/test/gtest/googlemock/include/gmock/gmock-actions.h
  /home/jms40/Documents/CMPT473/Exercise1/test/gtest/googlemock/include/gmock/gmock-cardinalities.h
  /home/jms40/Documents/CMPT473/Exercise1/test/gtest/googlemock/include/gmock/gmock-function-mocker.h

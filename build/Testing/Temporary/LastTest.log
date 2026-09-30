@@ -1,23 +1,81 @@
-Start testing: Sep 30 12:14 PDT
+Start testing: Sep 30 14:31 PDT
 ----------------------------------------------------------
 1/1 Testing: AllTests
 1/1 Test: AllTests
 Command: "/home/jms40/Documents/CMPT473/Exercise1/build/test/runAllTests"
 Directory: /home/jms40/Documents/CMPT473/Exercise1/build/test
-"AllTests" start time: Sep 30 12:14 PDT
+"AllTests" start time: Sep 30 14:31 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/jms40/Documents/CMPT473/Exercise1/test/gtest/googletest/src/gtest_main.cc
-This test program does NOT link in any test case. Please make sure this is intended.
-[==========] Running 0 tests from 0 test suites.
-[==========] 0 tests from 0 test suites ran. (0 ms total)
-[  PASSED  ] 0 tests.
+[==========] Running 13 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from ParallelogramTests
+[ RUN      ] ParallelogramTests.PerimeterOfEqualSidedShapeIsFourTimesSide
+[       OK ] ParallelogramTests.PerimeterOfEqualSidedShapeIsFourTimesSide (0 ms)
+[ RUN      ] ParallelogramTests.AreaOfEqualSidedShapeScalesWithSineOfAngle
+[       OK ] ParallelogramTests.AreaOfEqualSidedShapeScalesWithSineOfAngle (0 ms)
+[ RUN      ] ParallelogramTests.EqualSidesAtObliqueAngleIsRhombus
+[       OK ] ParallelogramTests.EqualSidesAtObliqueAngleIsRhombus (0 ms)
+[ RUN      ] ParallelogramTests.DistinctSidesAtObliqueAngleIsPlainParallelogram
+[       OK ] ParallelogramTests.DistinctSidesAtObliqueAngleIsPlainParallelogram (0 ms)
+[ RUN      ] ParallelogramTests.PerimeterSumsBothDistinctSides
+/home/jms40/Documents/CMPT473/Exercise1/test/Dummy.cpp:46: Failure
+Expected equality of these values:
+  16
+  p.getPerimeter()
+    Which is: 12
+
+[  FAILED  ] ParallelogramTests.PerimeterSumsBothDistinctSides (0 ms)
+[ RUN      ] ParallelogramTests.AreaMultipliesBothDistinctSides
+/home/jms40/Documents/CMPT473/Exercise1/test/Dummy.cpp:52: Failure
+The difference between 12 and p.getArea() is 4, which exceeds ktolerance, where
+12 evaluates to 12,
+p.getArea() evaluates to 16, and
+ktolerance evaluates to 1.0000000000000001e-09.
+
+[  FAILED  ] ParallelogramTests.AreaMultipliesBothDistinctSides (1 ms)
+[ RUN      ] ParallelogramTests.EqualSidesAtRightAngleIsSquare
+/home/jms40/Documents/CMPT473/Exercise1/test/Dummy.cpp:58: Failure
+Expected equality of these values:
+  Parallelogram::Kind::SQUARE
+    Which is: 1-byte object <03>
+  p.getKind()
+    Which is: 1-byte object <01>
+
+[  FAILED  ] ParallelogramTests.EqualSidesAtRightAngleIsSquare (0 ms)
+[----------] 7 tests from ParallelogramTests (3 ms total)
+
+[----------] 6 tests from MatthewsTests
+[ RUN      ] MatthewsTests.MultipleOfThreeIsZero
+[       OK ] MatthewsTests.MultipleOfThreeIsZero (0 ms)
+[ RUN      ] MatthewsTests.NegativeOneReturnsMinusOneCycle
+[       OK ] MatthewsTests.NegativeOneReturnsMinusOneCycle (0 ms)
+[ RUN      ] MatthewsTests.NegativeTwoReturnsNegativeTwoCycle
+[       OK ] MatthewsTests.NegativeTwoReturnsNegativeTwoCycle (0 ms)
+[ RUN      ] MatthewsTests.NegativeFourReturnsNegativeOneCycle
+[       OK ] MatthewsTests.NegativeFourReturnsNegativeOneCycle (0 ms)
+[ RUN      ] MatthewsTests.RemainderOneTakesGrowingBranchThenTerminates
+[       OK ] MatthewsTests.RemainderOneTakesGrowingBranchThenTerminates (0 ms)
+[ RUN      ] MatthewsTests.RemainderTwoTakesShrinkingBranchThenTerminates
+[       OK ] MatthewsTests.RemainderTwoTakesShrinkingBranchThenTerminates (0 ms)
+[----------] 6 tests from MatthewsTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 2 test suites ran. (3 ms total)
+[  PASSED  ] 10 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] ParallelogramTests.PerimeterSumsBothDistinctSides
+[  FAILED  ] ParallelogramTests.AreaMultipliesBothDistinctSides
+[  FAILED  ] ParallelogramTests.EqualSidesAtRightAngleIsSquare
+
+ 3 FAILED TESTS
 <end of output>
-Test time =   0.06 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
-Test Passed.
-"AllTests" end time: Sep 30 12:14 PDT
+Test Failed.
+"AllTests" end time: Sep 30 14:31 PDT
 "AllTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 30 12:14 PDT
+End testing: Sep 30 14:31 PDT
