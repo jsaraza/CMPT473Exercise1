@@ -1,0 +1,1 @@
+/usr/shared/CMPT/faculty/wsumner/base/bin/g++ -g -fsanitize=address,undefined -fno-omit-frame-pointer -Wl,--dependency-file=CMakeFiles/runAllTests.dir/link.d CMakeFiles/runAllTests.dir/Dummy.cpp.o -o runAllTests  ../lib/libgmock.a ../lib/libgtest.a ../lib/libgtest_main.a ../lib/simple/libgoogle_test_exercise_simple.a ../lib/libgtest.a

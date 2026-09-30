@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jms40/Documents/CMPT473/Exercise1/build/cmake_install.cmake",
+		"/home/jms40/Documents/CMPT473/Exercise1/build/lib/cmake_install.cmake",
+		"/home/jms40/Documents/CMPT473/Exercise1/build/lib/simple/cmake_install.cmake",
+		"/home/jms40/Documents/CMPT473/Exercise1/build/test/cmake_install.cmake",
+		"/home/jms40/Documents/CMPT473/Exercise1/build/test/gtest/cmake_install.cmake",
+		"/home/jms40/Documents/CMPT473/Exercise1/build/test/gtest/googlemock/cmake_install.cmake",
+		"/home/jms40/Documents/CMPT473/Exercise1/build/test/gtest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

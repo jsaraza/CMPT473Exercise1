@@ -1,0 +1,23 @@
+Start testing: Sep 30 12:14 PDT
+----------------------------------------------------------
+1/1 Testing: AllTests
+1/1 Test: AllTests
+Command: "/home/jms40/Documents/CMPT473/Exercise1/build/test/runAllTests"
+Directory: /home/jms40/Documents/CMPT473/Exercise1/build/test
+"AllTests" start time: Sep 30 12:14 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/jms40/Documents/CMPT473/Exercise1/test/gtest/googletest/src/gtest_main.cc
+This test program does NOT link in any test case. Please make sure this is intended.
+[==========] Running 0 tests from 0 test suites.
+[==========] 0 tests from 0 test suites ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"AllTests" end time: Sep 30 12:14 PDT
+"AllTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 30 12:14 PDT

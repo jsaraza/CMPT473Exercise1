@@ -1,0 +1,3191 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/uname"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/uname"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/uname"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/uname"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/uname"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/uname"
+      - "/usr/local/cuda/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 7.0.0-34-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gmake"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gmake"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gmake"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gmake"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gmake"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gmake"
+      - "/usr/local/cuda/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/g++"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    found: "/usr/shared/CMPT/faculty/wsumner/base/bin/g++"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/"
+    found: "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/shared/CMPT/faculty/wsumner/base/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/ar"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/ar"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/ar"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/ar"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/ar"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/ar"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/ar"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/ar"
+      - "/usr/local/cuda/bin/ar"
+      - "/usr/local/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/usr/sbin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/ranlib"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/ranlib"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/ranlib"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/ranlib"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/ranlib"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/ranlib"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/ranlib"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/ranlib"
+      - "/usr/local/cuda/bin/ranlib"
+      - "/usr/local/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/usr/sbin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/strip"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/strip"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/strip"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/strip"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/strip"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/strip"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/strip"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/strip"
+      - "/usr/local/cuda/bin/strip"
+      - "/usr/local/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/usr/sbin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/ld"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/ld"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/ld"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/ld"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/ld"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/ld"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/ld"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/ld"
+      - "/usr/local/cuda/bin/ld"
+      - "/usr/local/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/usr/sbin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/nm"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/nm"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/nm"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/nm"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/nm"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/nm"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/nm"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/nm"
+      - "/usr/local/cuda/bin/nm"
+      - "/usr/local/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/usr/sbin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/objdump"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/objdump"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/objdump"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/objdump"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/objdump"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/objdump"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/objdump"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/objdump"
+      - "/usr/local/cuda/bin/objdump"
+      - "/usr/local/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/usr/sbin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/objcopy"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/objcopy"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/objcopy"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/objcopy"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/objcopy"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/objcopy"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/objcopy"
+      - "/usr/local/cuda/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/sbin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/readelf"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/readelf"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/readelf"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/readelf"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/readelf"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/readelf"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/readelf"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/readelf"
+      - "/usr/local/cuda/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/sbin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/dlltool"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/dlltool"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/dlltool"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/dlltool"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/dlltool"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/dlltool"
+      - "/usr/local/cuda/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/home/jms40/.dotnet/tools/dlltool"
+      - "/usr/local/clion/bin/dlltool"
+      - "/usr/local/idea/bin/dlltool"
+      - "/usr/local/goland/bin/dlltool"
+      - "/usr/local/pycharm/bin/dlltool"
+      - "/usr/local/rubymine/bin/dlltool"
+      - "/snap/android-studio/current/android-studio/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/addr2line"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/addr2line"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/addr2line"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/addr2line"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/addr2line"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/addr2line"
+      - "/usr/local/cuda/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/sbin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/tapi"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/tapi"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/tapi"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/tapi"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/tapi"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/tapi"
+      - "/usr/local/cuda/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/home/jms40/.dotnet/tools/tapi"
+      - "/usr/local/clion/bin/tapi"
+      - "/usr/local/idea/bin/tapi"
+      - "/usr/local/goland/bin/tapi"
+      - "/usr/local/pycharm/bin/tapi"
+      - "/usr/local/rubymine/bin/tapi"
+      - "/snap/android-studio/current/android-studio/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.2"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ar-16.2"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.2"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.2"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ar-16.2"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ar-16.2"
+      - "/usr/local/cuda/bin/gcc-ar-16.2"
+      - "/usr/local/sbin/gcc-ar-16.2"
+      - "/usr/local/bin/gcc-ar-16.2"
+      - "/usr/sbin/gcc-ar-16.2"
+      - "/usr/bin/gcc-ar-16.2"
+      - "/sbin/gcc-ar-16.2"
+      - "/bin/gcc-ar-16.2"
+      - "/usr/games/gcc-ar-16.2"
+      - "/usr/local/games/gcc-ar-16.2"
+      - "/snap/bin/gcc-ar-16.2"
+      - "/home/jms40/.dotnet/tools/gcc-ar-16.2"
+      - "/usr/local/clion/bin/gcc-ar-16.2"
+      - "/usr/local/idea/bin/gcc-ar-16.2"
+      - "/usr/local/goland/bin/gcc-ar-16.2"
+      - "/usr/local/pycharm/bin/gcc-ar-16.2"
+      - "/usr/local/rubymine/bin/gcc-ar-16.2"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ar-16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ar-16"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ar-16"
+      - "/usr/local/cuda/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/usr/sbin/gcc-ar-16"
+      - "/usr/bin/gcc-ar-16"
+      - "/sbin/gcc-ar-16"
+      - "/bin/gcc-ar-16"
+      - "/usr/games/gcc-ar-16"
+      - "/usr/local/games/gcc-ar-16"
+      - "/snap/bin/gcc-ar-16"
+      - "/home/jms40/.dotnet/tools/gcc-ar-16"
+      - "/usr/local/clion/bin/gcc-ar-16"
+      - "/usr/local/idea/bin/gcc-ar-16"
+      - "/usr/local/goland/bin/gcc-ar-16"
+      - "/usr/local/pycharm/bin/gcc-ar-16"
+      - "/usr/local/rubymine/bin/gcc-ar-16"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ar16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ar16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ar16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar16"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ar16"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ar16"
+      - "/usr/local/cuda/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/usr/sbin/gcc-ar16"
+      - "/usr/bin/gcc-ar16"
+      - "/sbin/gcc-ar16"
+      - "/bin/gcc-ar16"
+      - "/usr/games/gcc-ar16"
+      - "/usr/local/games/gcc-ar16"
+      - "/snap/bin/gcc-ar16"
+      - "/home/jms40/.dotnet/tools/gcc-ar16"
+      - "/usr/local/clion/bin/gcc-ar16"
+      - "/usr/local/idea/bin/gcc-ar16"
+      - "/usr/local/goland/bin/gcc-ar16"
+      - "/usr/local/pycharm/bin/gcc-ar16"
+      - "/usr/local/rubymine/bin/gcc-ar16"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ar16"
+    found: "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.2"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ranlib-16.2"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.2"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ranlib-16.2"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ranlib-16.2"
+      - "/usr/local/cuda/bin/gcc-ranlib-16.2"
+      - "/usr/local/sbin/gcc-ranlib-16.2"
+      - "/usr/local/bin/gcc-ranlib-16.2"
+      - "/usr/sbin/gcc-ranlib-16.2"
+      - "/usr/bin/gcc-ranlib-16.2"
+      - "/sbin/gcc-ranlib-16.2"
+      - "/bin/gcc-ranlib-16.2"
+      - "/usr/games/gcc-ranlib-16.2"
+      - "/usr/local/games/gcc-ranlib-16.2"
+      - "/snap/bin/gcc-ranlib-16.2"
+      - "/home/jms40/.dotnet/tools/gcc-ranlib-16.2"
+      - "/usr/local/clion/bin/gcc-ranlib-16.2"
+      - "/usr/local/idea/bin/gcc-ranlib-16.2"
+      - "/usr/local/goland/bin/gcc-ranlib-16.2"
+      - "/usr/local/pycharm/bin/gcc-ranlib-16.2"
+      - "/usr/local/rubymine/bin/gcc-ranlib-16.2"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ranlib-16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ranlib-16"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ranlib-16"
+      - "/usr/local/cuda/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/usr/sbin/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/sbin/gcc-ranlib-16"
+      - "/bin/gcc-ranlib-16"
+      - "/usr/games/gcc-ranlib-16"
+      - "/usr/local/games/gcc-ranlib-16"
+      - "/snap/bin/gcc-ranlib-16"
+      - "/home/jms40/.dotnet/tools/gcc-ranlib-16"
+      - "/usr/local/clion/bin/gcc-ranlib-16"
+      - "/usr/local/idea/bin/gcc-ranlib-16"
+      - "/usr/local/goland/bin/gcc-ranlib-16"
+      - "/usr/local/pycharm/bin/gcc-ranlib-16"
+      - "/usr/local/rubymine/bin/gcc-ranlib-16"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ranlib16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ranlib16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ranlib16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib16"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ranlib16"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ranlib16"
+      - "/usr/local/cuda/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/usr/sbin/gcc-ranlib16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/sbin/gcc-ranlib16"
+      - "/bin/gcc-ranlib16"
+      - "/usr/games/gcc-ranlib16"
+      - "/usr/local/games/gcc-ranlib16"
+      - "/snap/bin/gcc-ranlib16"
+      - "/home/jms40/.dotnet/tools/gcc-ranlib16"
+      - "/usr/local/clion/bin/gcc-ranlib16"
+      - "/usr/local/idea/bin/gcc-ranlib16"
+      - "/usr/local/goland/bin/gcc-ranlib16"
+      - "/usr/local/pycharm/bin/gcc-ranlib16"
+      - "/usr/local/rubymine/bin/gcc-ranlib16"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ranlib16"
+    found: "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-bXElpt"
+      binary: "/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-bXElpt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-bXElpt'
+        
+        Run Build Command(s): /usr/shared/CMPT/faculty/wsumner/base/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_91231/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_91231.dir/build.make CMakeFiles/cmTC_91231.dir/build
+        gmake[1]: Entering directory '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-bXElpt'
+        Building CXX object CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/shared/CMPT/faculty/wsumner/base/bin/g++   -v -o CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o -c /usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/shared/CMPT/faculty/wsumner/base/bin/g++
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../gcc-16.2.0/configure --prefix=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/ --enable-languages=c,c++ --disable-multilib
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91231.dir/'
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_91231.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccQMJ7Te.s
+        GNU C++20 (GCC) version 16.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 16.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/shared/CMPT/faculty/wsumner/base/include
+         .
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0/x86_64-pc-linux-gnu
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0/backward
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include
+         /usr/local/include
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 55b840f49169399d81e013abbd1a09c2
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91231.dir/'
+         as -v --64 -o CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQMJ7Te.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/base/lib/:./:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_91231
+        /usr/shared/CMPT/faculty/wsumner/base/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91231.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/shared/CMPT/faculty/wsumner/base/bin/g++
+        COLLECT_LTO_WRAPPER=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../gcc-16.2.0/configure --prefix=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/ --enable-languages=c,c++ --disable-multilib
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.0 (GCC) 
+        COMPILER_PATH=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/base/lib/:./:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_91231' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_91231.'
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/collect2 -plugin /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs5vtxW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_91231 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o -L/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/base/lib -L. -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+        collect2 version 16.2.0
+        /usr/bin/ld -plugin /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs5vtxW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_91231 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o -L/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/base/lib -L. -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_91231' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_91231.'
+        /usr/shared/CMPT/faculty/wsumner/base/bin/g++ -v -Wl,-v CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_91231
+        gmake[1]: Leaving directory '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-bXElpt'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/shared/CMPT/faculty/wsumner/base/include]
+          add: [.]
+          add: [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0]
+          add: [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0/x86_64-pc-linux-gnu]
+          add: [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0/backward]
+          add: [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include]
+          add: [/usr/local/include]
+          add: [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include]
+          add: [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/base/include] ==> [/usr/shared/CMPT/faculty/wsumner/base/include]
+        skipping relative include dir [.]
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include/c++/16.2.0]
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0/x86_64-pc-linux-gnu] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include/c++/16.2.0/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0/backward] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include/c++/16.2.0/backward]
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include]
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/shared/CMPT/faculty/wsumner/base/include;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include/c++/16.2.0;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include/c++/16.2.0/x86_64-pc-linux-gnu;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include/c++/16.2.0/backward;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include;/usr/local/include;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-bXElpt']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/shared/CMPT/faculty/wsumner/base/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_91231/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_91231.dir/build.make CMakeFiles/cmTC_91231.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-bXElpt']
+        ignore line: [Building CXX object CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/shared/CMPT/faculty/wsumner/base/bin/g++   -v -o CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o -c /usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/shared/CMPT/faculty/wsumner/base/bin/g++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/ --enable-languages=c c++ --disable-multilib]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91231.dir/']
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_91231.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccQMJ7Te.s]
+        ignore line: [GNU C++20 (GCC) version 16.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 16.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/base/include]
+        ignore line: [ .]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../include/c++/16.2.0/backward]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 55b840f49169399d81e013abbd1a09c2]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91231.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQMJ7Te.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/base/lib/:./:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_91231]
+        ignore line: [/usr/shared/CMPT/faculty/wsumner/base/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91231.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/shared/CMPT/faculty/wsumner/base/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/ --enable-languages=c c++ --disable-multilib]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/base/lib/:./:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_91231' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_91231.']
+        link line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/collect2 -plugin /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs5vtxW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_91231 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o -L/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/base/lib -L. -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccs5vtxW.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_91231] ==> ignore
+          arg [/lib/x86_64-linux-gnu/crt1.o] ==> obj [/lib/x86_64-linux-gnu/crt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o] ==> obj [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o]
+          arg [-L/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64] ==> dir [/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64]
+          arg [-L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0] ==> dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0]
+          arg [-L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64] ==> dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/shared/CMPT/faculty/wsumner/base/lib] ==> dir [/usr/shared/CMPT/faculty/wsumner/base/lib]
+          arg [-L.] ==> ignore
+          arg [-L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../..] ==> dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o] ==> obj [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 16.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs5vtxW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_91231 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o -L/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/base/lib -L. -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_91231.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse library dir [/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64] ==> [/usr/shared/CMPT/faculty/wsumner/base/lib64]
+        collapse library dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0]
+        collapse library dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/shared/CMPT/faculty/wsumner/base/lib] ==> [/usr/shared/CMPT/faculty/wsumner/base/lib]
+        collapse library dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../..] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;atomic_asneeded;c;gcc_s;gcc]
+        implicit objs: [/lib/x86_64-linux-gnu/crt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/shared/CMPT/faculty/wsumner/base/lib64;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib64;/usr/shared/CMPT/faculty/wsumner/base/lib;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.42
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CTest.cmake:171 (find_program)"
+      - "CMakeLists.txt:51 (include)"
+    mode: "program"
+    variable: "GITCOMMAND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/git"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/git"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/git"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/git"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/git"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/git"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/git"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/git"
+      - "/usr/local/cuda/bin/git"
+      - "/usr/local/sbin/git"
+      - "/usr/local/bin/git"
+      - "/usr/sbin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/shared/CMPT/faculty/wsumner/base"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CTest.cmake:188 (find_program)"
+      - "CMakeLists.txt:51 (include)"
+    mode: "program"
+    variable: "MEMORYCHECK_COMMAND"
+    description: "Path to the memory checking command, used for memory error detection."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "purify"
+      - "valgrind"
+      - "boundscheck"
+      - "drmemory"
+      - "cuda-memcheck"
+      - "compute-sanitizer"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/purify"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/purify"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/purify"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/purify"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/purify"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/purify"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/purify"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/purify"
+      - "/usr/local/cuda/bin/purify"
+      - "/usr/local/sbin/purify"
+      - "/usr/local/bin/purify"
+      - "/usr/sbin/purify"
+      - "/usr/bin/purify"
+      - "/sbin/purify"
+      - "/bin/purify"
+      - "/usr/games/purify"
+      - "/usr/local/games/purify"
+      - "/snap/bin/purify"
+      - "/home/jms40/.dotnet/tools/purify"
+      - "/usr/local/clion/bin/purify"
+      - "/usr/local/idea/bin/purify"
+      - "/usr/local/goland/bin/purify"
+      - "/usr/local/pycharm/bin/purify"
+      - "/usr/local/rubymine/bin/purify"
+      - "/snap/android-studio/current/android-studio/bin/purify"
+      - "/usr/local/bin/purify"
+      - "/usr/local/sbin/purify"
+      - "/usr/local/purify"
+      - "/usr/bin/purify"
+      - "/usr/sbin/purify"
+      - "/usr/purify"
+      - "/bin/purify"
+      - "/sbin/purify"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/purify"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/purify"
+      - "/usr/shared/CMPT/faculty/wsumner/base/purify"
+      - "/usr/X11R6/bin/purify"
+      - "/usr/X11R6/sbin/purify"
+      - "/usr/X11R6/purify"
+      - "/usr/pkg/bin/purify"
+      - "/usr/pkg/sbin/purify"
+      - "/usr/pkg/purify"
+      - "/opt/bin/purify"
+      - "/opt/sbin/purify"
+      - "/opt/purify"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/valgrind"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/valgrind"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/valgrind"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/valgrind"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/valgrind"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/valgrind"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/valgrind"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/valgrind"
+      - "/usr/local/cuda/bin/valgrind"
+      - "/usr/local/sbin/valgrind"
+      - "/usr/local/bin/valgrind"
+      - "/usr/sbin/valgrind"
+    found: "/usr/bin/valgrind"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/shared/CMPT/faculty/wsumner/base"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CTest.cmake:196 (find_program)"
+      - "CMakeLists.txt:51 (include)"
+    mode: "program"
+    variable: "COVERAGE_COMMAND"
+    description: "Path to the coverage program that CTest uses for performing coverage inspection"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcov"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    found: "/usr/shared/CMPT/faculty/wsumner/base/bin/gcov"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/shared/CMPT/faculty/wsumner/base"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "test/gtest/CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+    found: "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/shared/CMPT/faculty/wsumner/base"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "test/gtest/CMakeLists.txt:6 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/"
+    found: "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/shared/CMPT/faculty/wsumner/base"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "test/gtest/CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/shared/CMPT/faculty/wsumner/base/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/4.2.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "test/gtest/CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.2"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ar-16.2"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.2"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.2"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ar-16.2"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ar-16.2"
+      - "/usr/local/cuda/bin/gcc-ar-16.2"
+      - "/usr/local/sbin/gcc-ar-16.2"
+      - "/usr/local/bin/gcc-ar-16.2"
+      - "/usr/sbin/gcc-ar-16.2"
+      - "/usr/bin/gcc-ar-16.2"
+      - "/sbin/gcc-ar-16.2"
+      - "/bin/gcc-ar-16.2"
+      - "/usr/games/gcc-ar-16.2"
+      - "/usr/local/games/gcc-ar-16.2"
+      - "/snap/bin/gcc-ar-16.2"
+      - "/home/jms40/.dotnet/tools/gcc-ar-16.2"
+      - "/usr/local/clion/bin/gcc-ar-16.2"
+      - "/usr/local/idea/bin/gcc-ar-16.2"
+      - "/usr/local/goland/bin/gcc-ar-16.2"
+      - "/usr/local/pycharm/bin/gcc-ar-16.2"
+      - "/usr/local/rubymine/bin/gcc-ar-16.2"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ar-16.2"
+      - "/usr/local/bin/gcc-ar-16.2"
+      - "/usr/local/sbin/gcc-ar-16.2"
+      - "/usr/local/gcc-ar-16.2"
+      - "/usr/bin/gcc-ar-16.2"
+      - "/usr/sbin/gcc-ar-16.2"
+      - "/usr/gcc-ar-16.2"
+      - "/bin/gcc-ar-16.2"
+      - "/sbin/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/gcc-ar-16.2"
+      - "/usr/X11R6/bin/gcc-ar-16.2"
+      - "/usr/X11R6/sbin/gcc-ar-16.2"
+      - "/usr/X11R6/gcc-ar-16.2"
+      - "/usr/pkg/bin/gcc-ar-16.2"
+      - "/usr/pkg/sbin/gcc-ar-16.2"
+      - "/usr/pkg/gcc-ar-16.2"
+      - "/opt/bin/gcc-ar-16.2"
+      - "/opt/sbin/gcc-ar-16.2"
+      - "/opt/gcc-ar-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ar-16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ar-16"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ar-16"
+      - "/usr/local/cuda/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/usr/sbin/gcc-ar-16"
+      - "/usr/bin/gcc-ar-16"
+      - "/sbin/gcc-ar-16"
+      - "/bin/gcc-ar-16"
+      - "/usr/games/gcc-ar-16"
+      - "/usr/local/games/gcc-ar-16"
+      - "/snap/bin/gcc-ar-16"
+      - "/home/jms40/.dotnet/tools/gcc-ar-16"
+      - "/usr/local/clion/bin/gcc-ar-16"
+      - "/usr/local/idea/bin/gcc-ar-16"
+      - "/usr/local/goland/bin/gcc-ar-16"
+      - "/usr/local/pycharm/bin/gcc-ar-16"
+      - "/usr/local/rubymine/bin/gcc-ar-16"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/local/gcc-ar-16"
+      - "/usr/bin/gcc-ar-16"
+      - "/usr/sbin/gcc-ar-16"
+      - "/usr/gcc-ar-16"
+      - "/bin/gcc-ar-16"
+      - "/sbin/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/gcc-ar-16"
+      - "/usr/X11R6/bin/gcc-ar-16"
+      - "/usr/X11R6/sbin/gcc-ar-16"
+      - "/usr/X11R6/gcc-ar-16"
+      - "/usr/pkg/bin/gcc-ar-16"
+      - "/usr/pkg/sbin/gcc-ar-16"
+      - "/usr/pkg/gcc-ar-16"
+      - "/opt/bin/gcc-ar-16"
+      - "/opt/sbin/gcc-ar-16"
+      - "/opt/gcc-ar-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ar16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ar16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ar16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar16"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ar16"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ar16"
+      - "/usr/local/cuda/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/usr/sbin/gcc-ar16"
+      - "/usr/bin/gcc-ar16"
+      - "/sbin/gcc-ar16"
+      - "/bin/gcc-ar16"
+      - "/usr/games/gcc-ar16"
+      - "/usr/local/games/gcc-ar16"
+      - "/snap/bin/gcc-ar16"
+      - "/home/jms40/.dotnet/tools/gcc-ar16"
+      - "/usr/local/clion/bin/gcc-ar16"
+      - "/usr/local/idea/bin/gcc-ar16"
+      - "/usr/local/goland/bin/gcc-ar16"
+      - "/usr/local/pycharm/bin/gcc-ar16"
+      - "/usr/local/rubymine/bin/gcc-ar16"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/local/gcc-ar16"
+      - "/usr/bin/gcc-ar16"
+      - "/usr/sbin/gcc-ar16"
+      - "/usr/gcc-ar16"
+      - "/bin/gcc-ar16"
+      - "/sbin/gcc-ar16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/gcc-ar16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/gcc-ar16"
+      - "/usr/X11R6/bin/gcc-ar16"
+      - "/usr/X11R6/sbin/gcc-ar16"
+      - "/usr/X11R6/gcc-ar16"
+      - "/usr/pkg/bin/gcc-ar16"
+      - "/usr/pkg/sbin/gcc-ar16"
+      - "/usr/pkg/gcc-ar16"
+      - "/opt/bin/gcc-ar16"
+      - "/opt/sbin/gcc-ar16"
+      - "/opt/gcc-ar16"
+    found: "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/shared/CMPT/faculty/wsumner/base"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "test/gtest/CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.2"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/jms40/.dotnet/tools/"
+      - "/usr/local/clion/bin/"
+      - "/usr/local/idea/bin/"
+      - "/usr/local/goland/bin/"
+      - "/usr/local/pycharm/bin/"
+      - "/usr/local/rubymine/bin/"
+      - "/snap/android-studio/current/android-studio/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/"
+      - "/usr/shared/CMPT/faculty/wsumner/base/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ranlib-16.2"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.2"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ranlib-16.2"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ranlib-16.2"
+      - "/usr/local/cuda/bin/gcc-ranlib-16.2"
+      - "/usr/local/sbin/gcc-ranlib-16.2"
+      - "/usr/local/bin/gcc-ranlib-16.2"
+      - "/usr/sbin/gcc-ranlib-16.2"
+      - "/usr/bin/gcc-ranlib-16.2"
+      - "/sbin/gcc-ranlib-16.2"
+      - "/bin/gcc-ranlib-16.2"
+      - "/usr/games/gcc-ranlib-16.2"
+      - "/usr/local/games/gcc-ranlib-16.2"
+      - "/snap/bin/gcc-ranlib-16.2"
+      - "/home/jms40/.dotnet/tools/gcc-ranlib-16.2"
+      - "/usr/local/clion/bin/gcc-ranlib-16.2"
+      - "/usr/local/idea/bin/gcc-ranlib-16.2"
+      - "/usr/local/goland/bin/gcc-ranlib-16.2"
+      - "/usr/local/pycharm/bin/gcc-ranlib-16.2"
+      - "/usr/local/rubymine/bin/gcc-ranlib-16.2"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ranlib-16.2"
+      - "/usr/local/bin/gcc-ranlib-16.2"
+      - "/usr/local/sbin/gcc-ranlib-16.2"
+      - "/usr/local/gcc-ranlib-16.2"
+      - "/usr/bin/gcc-ranlib-16.2"
+      - "/usr/sbin/gcc-ranlib-16.2"
+      - "/usr/gcc-ranlib-16.2"
+      - "/bin/gcc-ranlib-16.2"
+      - "/sbin/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/gcc-ranlib-16.2"
+      - "/usr/X11R6/bin/gcc-ranlib-16.2"
+      - "/usr/X11R6/sbin/gcc-ranlib-16.2"
+      - "/usr/X11R6/gcc-ranlib-16.2"
+      - "/usr/pkg/bin/gcc-ranlib-16.2"
+      - "/usr/pkg/sbin/gcc-ranlib-16.2"
+      - "/usr/pkg/gcc-ranlib-16.2"
+      - "/opt/bin/gcc-ranlib-16.2"
+      - "/opt/sbin/gcc-ranlib-16.2"
+      - "/opt/gcc-ranlib-16.2"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ranlib-16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ranlib-16"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ranlib-16"
+      - "/usr/local/cuda/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/usr/sbin/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/sbin/gcc-ranlib-16"
+      - "/bin/gcc-ranlib-16"
+      - "/usr/games/gcc-ranlib-16"
+      - "/usr/local/games/gcc-ranlib-16"
+      - "/snap/bin/gcc-ranlib-16"
+      - "/home/jms40/.dotnet/tools/gcc-ranlib-16"
+      - "/usr/local/clion/bin/gcc-ranlib-16"
+      - "/usr/local/idea/bin/gcc-ranlib-16"
+      - "/usr/local/goland/bin/gcc-ranlib-16"
+      - "/usr/local/pycharm/bin/gcc-ranlib-16"
+      - "/usr/local/rubymine/bin/gcc-ranlib-16"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/local/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/usr/sbin/gcc-ranlib-16"
+      - "/usr/gcc-ranlib-16"
+      - "/bin/gcc-ranlib-16"
+      - "/sbin/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/gcc-ranlib-16"
+      - "/usr/X11R6/bin/gcc-ranlib-16"
+      - "/usr/X11R6/sbin/gcc-ranlib-16"
+      - "/usr/X11R6/gcc-ranlib-16"
+      - "/usr/pkg/bin/gcc-ranlib-16"
+      - "/usr/pkg/sbin/gcc-ranlib-16"
+      - "/usr/pkg/gcc-ranlib-16"
+      - "/opt/bin/gcc-ranlib-16"
+      - "/opt/sbin/gcc-ranlib-16"
+      - "/opt/gcc-ranlib-16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/uv/gcc-ranlib16"
+      - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin/gcc-ranlib16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin/gcc-ranlib16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16"
+      - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib16"
+      - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli/gcc-ranlib16"
+      - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/gcc-ranlib16"
+      - "/usr/local/cuda/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/usr/sbin/gcc-ranlib16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/sbin/gcc-ranlib16"
+      - "/bin/gcc-ranlib16"
+      - "/usr/games/gcc-ranlib16"
+      - "/usr/local/games/gcc-ranlib16"
+      - "/snap/bin/gcc-ranlib16"
+      - "/home/jms40/.dotnet/tools/gcc-ranlib16"
+      - "/usr/local/clion/bin/gcc-ranlib16"
+      - "/usr/local/idea/bin/gcc-ranlib16"
+      - "/usr/local/goland/bin/gcc-ranlib16"
+      - "/usr/local/pycharm/bin/gcc-ranlib16"
+      - "/usr/local/rubymine/bin/gcc-ranlib16"
+      - "/snap/android-studio/current/android-studio/bin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/local/gcc-ranlib16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/usr/sbin/gcc-ranlib16"
+      - "/usr/gcc-ranlib16"
+      - "/bin/gcc-ranlib16"
+      - "/sbin/gcc-ranlib16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/sbin/gcc-ranlib16"
+      - "/usr/shared/CMPT/faculty/wsumner/base/gcc-ranlib16"
+      - "/usr/X11R6/bin/gcc-ranlib16"
+      - "/usr/X11R6/sbin/gcc-ranlib16"
+      - "/usr/X11R6/gcc-ranlib16"
+      - "/usr/pkg/bin/gcc-ranlib16"
+      - "/usr/pkg/sbin/gcc-ranlib16"
+      - "/usr/pkg/gcc-ranlib16"
+      - "/opt/bin/gcc-ranlib16"
+      - "/opt/sbin/gcc-ranlib16"
+      - "/opt/gcc-ranlib16"
+    found: "/usr/shared/CMPT/faculty/wsumner/base/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/usr/shared/CMPT/faculty/wsumner/base/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/uv"
+        - "/usr/shared/CMPT/faculty/wsumner/installed/tree-sitter/bin"
+        - "/usr/shared/CMPT/faculty/wsumner/base/env473/bin"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/jms40/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/shared/CMPT/scratch/jms40/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli"
+        - "/opt/rust/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+        - "/usr/local/cuda/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/jms40/.dotnet/tools"
+        - "/usr/local/clion/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/goland/bin"
+        - "/usr/local/idea/bin"
+        - "/usr/local/pycharm/bin"
+        - "/usr/local/rubymine/bin"
+        - "/snap/android-studio/current/android-studio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/shared/CMPT/faculty/wsumner/base"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "test/gtest/CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-omZ32N"
+      binary: "/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-omZ32N"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-omZ32N'
+        
+        Run Build Command(s): /usr/shared/CMPT/faculty/wsumner/base/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1c09f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1c09f.dir/build.make CMakeFiles/cmTC_1c09f.dir/build
+        gmake[1]: Entering directory '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-omZ32N'
+        Building C object CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o
+        /usr/shared/CMPT/faculty/wsumner/base/bin/gcc   -v -o CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o -c /usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/shared/CMPT/faculty/wsumner/base/bin/gcc
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../gcc-16.2.0/configure --prefix=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/ --enable-languages=c,c++ --disable-multilib
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c09f.dir/'
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1c09f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccybI3fa.s
+        GNU C23 (GCC) version 16.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 16.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/shared/CMPT/faculty/wsumner/base/include
+         .
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include
+         /usr/local/include
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: cced27d3acf61ad5a81aee26000ce457
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c09f.dir/'
+         as -v --64 -o CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o /tmp/ccybI3fa.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/base/lib/:./:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_1c09f
+        /usr/shared/CMPT/faculty/wsumner/base/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c09f.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/shared/CMPT/faculty/wsumner/base/bin/gcc
+        COLLECT_LTO_WRAPPER=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../gcc-16.2.0/configure --prefix=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/ --enable-languages=c,c++ --disable-multilib
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.0 (GCC) 
+        COMPILER_PATH=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/base/lib/:./:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c09f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c09f.'
+         /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/collect2 -plugin /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9IOZUi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1c09f /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o -L/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/base/lib -L. -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+        collect2 version 16.2.0
+        /usr/bin/ld -plugin /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9IOZUi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1c09f /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o -L/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/base/lib -L. -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c09f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c09f.'
+        /usr/shared/CMPT/faculty/wsumner/base/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o -o cmTC_1c09f
+        gmake[1]: Leaving directory '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-omZ32N'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "test/gtest/CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/shared/CMPT/faculty/wsumner/base/include]
+          add: [.]
+          add: [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include]
+          add: [/usr/local/include]
+          add: [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include]
+          add: [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/base/include] ==> [/usr/shared/CMPT/faculty/wsumner/base/include]
+        skipping relative include dir [.]
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include]
+        collapse include dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/shared/CMPT/faculty/wsumner/base/include;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include;/usr/local/include;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "test/gtest/CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-omZ32N']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/shared/CMPT/faculty/wsumner/base/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1c09f/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_1c09f.dir/build.make CMakeFiles/cmTC_1c09f.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-omZ32N']
+        ignore line: [Building C object CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/shared/CMPT/faculty/wsumner/base/bin/gcc   -v -o CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o -c /usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/shared/CMPT/faculty/wsumner/base/bin/gcc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/ --enable-languages=c c++ --disable-multilib]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c09f.dir/']
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1c09f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccybI3fa.s]
+        ignore line: [GNU C23 (GCC) version 16.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 16.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/base/include]
+        ignore line: [ .]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/include]
+        ignore line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: cced27d3acf61ad5a81aee26000ce457]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c09f.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o /tmp/ccybI3fa.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/base/lib/:./:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_1c09f]
+        ignore line: [/usr/shared/CMPT/faculty/wsumner/base/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c09f.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/shared/CMPT/faculty/wsumner/base/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/ --enable-languages=c c++ --disable-multilib]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/shared/CMPT/faculty/wsumner/base/lib/:./:/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c09f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c09f.']
+        link line: [ /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/collect2 -plugin /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9IOZUi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1c09f /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o -L/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/base/lib -L. -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc9IOZUi.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_1c09f] ==> ignore
+          arg [/lib/x86_64-linux-gnu/crt1.o] ==> obj [/lib/x86_64-linux-gnu/crt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o] ==> obj [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o]
+          arg [-L/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64] ==> dir [/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64]
+          arg [-L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0] ==> dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0]
+          arg [-L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64] ==> dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/shared/CMPT/faculty/wsumner/base/lib] ==> dir [/usr/shared/CMPT/faculty/wsumner/base/lib]
+          arg [-L.] ==> ignore
+          arg [-L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../..] ==> dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
+          arg [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o] ==> obj [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 16.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/libexec/gcc/x86_64-pc-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9IOZUi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1c09f /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o -L/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0 -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/shared/CMPT/faculty/wsumner/base/lib -L. -L/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1c09f.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse library dir [/usr/shared/CMPT/faculty/wsumner/base/lib/../lib64] ==> [/usr/shared/CMPT/faculty/wsumner/base/lib64]
+        collapse library dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0]
+        collapse library dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../../../lib64] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/shared/CMPT/faculty/wsumner/base/lib] ==> [/usr/shared/CMPT/faculty/wsumner/base/lib]
+        collapse library dir [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/../../..] ==> [/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s_asneeded;atomic_asneeded;c;gcc;gcc_s_asneeded]
+        implicit objs: [/lib/x86_64-linux-gnu/crt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtbegin.o;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0/crtend.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/shared/CMPT/faculty/wsumner/base/lib64;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib/gcc/x86_64-pc-linux-gnu/16.2.0;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib64;/usr/shared/CMPT/faculty/wsumner/base/lib;/usr/shared/CMPT/faculty/wsumner/installed/gcc-16.2.0/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "test/gtest/CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.42
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "/usr/shared/CMPT/faculty/wsumner/base/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "test/gtest/googletest/cmake/internal_utils.cmake:58 (find_package)"
+      - "test/gtest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-edOkaX"
+      binary: "/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-edOkaX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-edOkaX'
+        
+        Run Build Command(s): /usr/shared/CMPT/faculty/wsumner/base/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c2fb8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c2fb8.dir/build.make CMakeFiles/cmTC_c2fb8.dir/build
+        gmake[1]: Entering directory '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-edOkaX'
+        Building C object CMakeFiles/cmTC_c2fb8.dir/src.c.o
+        /usr/shared/CMPT/faculty/wsumner/base/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c2fb8.dir/src.c.o -c /home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-edOkaX/src.c
+        Linking C executable cmTC_c2fb8
+        /usr/shared/CMPT/faculty/wsumner/base/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2fb8.dir/link.txt --verbose=1
+        /usr/shared/CMPT/faculty/wsumner/base/bin/gcc CMakeFiles/cmTC_c2fb8.dir/src.c.o -o cmTC_c2fb8
+        gmake[1]: Leaving directory '/home/jms40/Documents/CMPT473/Exercise1/build/CMakeFiles/CMakeScratch/TryCompile-edOkaX'
+        
+      exitCode: 0
+...

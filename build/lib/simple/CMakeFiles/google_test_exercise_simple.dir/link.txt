@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgoogle_test_exercise_simple.a CMakeFiles/google_test_exercise_simple.dir/Parallelogram.cpp.o CMakeFiles/google_test_exercise_simple.dir/Matthews.cpp.o CMakeFiles/google_test_exercise_simple.dir/Awards.cpp.o
+/usr/bin/ranlib libgoogle_test_exercise_simple.a
