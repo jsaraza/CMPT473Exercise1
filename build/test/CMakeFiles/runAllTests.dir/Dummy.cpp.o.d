@@ -405,4 +405,5 @@ test/CMakeFiles/runAllTests.dir/Dummy.cpp.o: \
  /home/jms40/Documents/CMPT473/Exercise1/test/gtest/googlemock/include/gmock/gmock-more-actions.h \
  /home/jms40/Documents/CMPT473/Exercise1/test/gtest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
  /home/jms40/Documents/CMPT473/Exercise1/test/gtest/googlemock/include/gmock/gmock-more-matchers.h \
- /home/jms40/Documents/CMPT473/Exercise1/test/gtest/googlemock/include/gmock/gmock-nice-strict.h
+ /home/jms40/Documents/CMPT473/Exercise1/test/gtest/googlemock/include/gmock/gmock-nice-strict.h \
+ /home/jms40/Documents/CMPT473/Exercise1/lib/simple/include/Parallelogram.h

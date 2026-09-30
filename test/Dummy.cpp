@@ -48,7 +48,7 @@ TEST(ParallelogramTests, AreaMultipliesBothDistinctSides) {
 }
 
 
-TEST(ParallelogramTests, PerimeterOfEqualSidedShapeIsFourTimesSide) {
-  Parallelogram p{Side{4}, Side{4}, Angle{60.0}};
+TEST(ParallelogramTests, EqualSidesAtRightAngleIsSquare) {
+  Parallelogram p{Side{4}, Side{4}, Angle{90.0}};
   EXPECT_EQ(Parallelogram::Kind::SQUARE, p.getKind()); // returns rectangle when its actually a square
 }
